@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>Contact Page</h1>
+      <p><em>Please, feel welcome to reach out to me. <br>
+        I will make sure to come back to you at the first given opportunity.</em></p>
+    <hr>
+    <table border="1" cellspacing="5">
+      <tr>
+        <th>Email:</th>
+        <td>sara.anderlini@hotmail.com</td>
+      </tr>
+      <tr>
+        <th>Phone number:</th>
+        <td>+39 334 544 6539</td>
+      </tr>
+      <tr>
+        <th>LinkedIn:</th>
+        <td>profile</td>
+      </tr>
+    </table>
+<br>
+<p>You will be contacted shortly.</p>
+<form action="mailto:sara.anderlini@hotmail.com" method="post" autocomplete="name" enctype="text/plain">
+  <label for="Name">Name</label>
+  <input type="text" name="Name" value="" minlength="4" maxlength="10" required placeholder="Anne" size="10">
+  <label for="Last Name">Last Name</label>
+  <input type="text" name="Last Name" minlength="3" maxlength="20" required placeholder="Scott" size="10"> <br>
+  <label for=""></label>
+  <label for="email">Email</label>
+  <input id="Email" type="email" name="email" checked placeholder="anne@scott.com"><br>
+  <label for="Number">Telephone number</label>
+  <input id="Number" type="number" name="number" value=""><br>
+  <label for="box">Leave a comment</label><br>
+  <textarea name="box" rows="10" cols="10"></textarea><br>
+  <label for="email">E-mail</label>
+  <input type="email" name="eMail" value=""><br>
+  <label for="password">Password</label>
+  <input type="password" name="password" minlength="4" maxlength="10" value=""> <br>
+  <label for="Date">Date of Birth</label>
+  <input id="Date" type="date" name="date" placeholder="dd-mm-yy"><br>
+  <label for=""></label>
+  <button type="circle" name="button">Are you done?</button>
+  <input type="submit" name="Submit" value="Submit" size="4"> <br>
+</form>
+<hr>
+<form action="mailto:sara.anderlini@hotmail.com" method="post" accept-charset="utf-8" enctype="text/plain">
+  <div class="example">
+    <label for="name">Name</label>
+    <input type="text" name="name" autocomplete="name" placeholder="John" required ><br>
+    <label for="lastname">Last Name</label>
+    <input type="text" name="lastname" autocomplete="name" required placeholder="Scott"><br>
+    <label for="date">Birthdate</label>
+    <input type="date" name="date" placeholder="dd-mm-yy"><br>
+  </div>
+  <input type="submit" name="button">
+</form>
+
+  </body>
+</html>
